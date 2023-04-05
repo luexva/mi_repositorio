@@ -1,10 +1,66 @@
-.body {
-    
-}
-.footer {
-    background-image: var(--bs-gradient);
-}
-.carousel-inner{
-    height: 700px;
+h1 {
+  font-size: 3rem;
 }
 
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.7rem;
+}
+
+h5 {
+  font-size: 1.7rem;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+.cabecera {
+  width: 100%;
+  height: 450px;
+  background-image: url("../img/hurones-oscuros.jpg");
+  background-position: 0;
+  background-size: cover;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.footer {
+  background-image: var(--bs-gradient);
+}
+
+.carousel-inner {
+  height: 700px;
+  padding: 30px 20px;
+}
+
+.fondo {
+  background-image: radial-gradient(circle 321px at 8.3% 75.7%, rgb(209, 247, 241) 0%, rgb(249, 213, 213) 81%);
+}
+
+.navbar-brand {
+  background-image: linear-gradient(73.2deg, rgb(248, 205, 205) 23.2%, rgb(149, 170, 211) 77%);
+  border-radius: 10px;
+}
+
+#pie-pagina {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+}
+
+.hurbebe {
+  background-position: 10% 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
