@@ -2,6 +2,7 @@
 
 @include titulos();
 
+
 .navbar{
     position: sticky;
     top: 0;
@@ -20,12 +21,14 @@
     font-size: 2rem;
     
 }
+
 .footer {
     background-image: var(--bs-gradient);
 }
 .carousel-inner{
     height: 700px;
     padding: 30px 20px;
+    
     
 }
 .fondo {
@@ -43,3 +46,4 @@
 .hurbebe{
     background-position: 10% 50%;
 }
+
